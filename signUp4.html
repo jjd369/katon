@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/signUp4.css">
+
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/gnb.js"></script>
+    <script src="js/siteLink.js"></script>
+    <script src="js/signUp4.js"></script>
+    <script src="js/skipnav.js"></script>
+    <script src="js/search.js"></script>
+
+    <title>한국항로표지기술원</title>
+</head>
+
+<body>
+    <?php include("header.php") ?>
+    <section id="content">
+        <h3>회원 약관동의</h3>
+        <div class="Procedure">
+            <ul>
+                <li><span>01.</span>회원선택</li>
+                <li><span>02.</span>약관동의</li>
+                <li class="on"><span>03.</span>회원정보 입력</li>
+                <li><span>04.</span>회원가입 완료</li>
+            </ul>
+        </div>
+        <!---Procedure end-->
+        <div class="formtBox">
+            <form action="#" method="post" name="join">
+                <fieldset>
+                    <legend>회원정보 입력</legend>
+                    <h4>회원정보 필수 입력</h4>
+                    <div class="tableBox">
+                        <table>
+                            <caption>실명확인 테이블</caption>
+                            <tr>
+                                <td>
+                                    <label for="name">이름</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="name" name="name">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="ids">아이디</label><span class="red" title="필수입력란">*</span>
+                                </td>
+                                <td>
+                                    <input type="text" id="ids" name="ids">
+                                    <a href="#">중복확인</a>
+                                    <span>4~12자 까지 영문/숫자만 가능</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="pws">비밀번호</label> <span class="red" title="필수입력란">*</span></td>
+                                <td><input type="password" id="pws" name="pws"><span>패스워드는 4~12자의 영문 대소문자와 숫자로만
+                                        입력</span></td>
+                            </tr>
+                            <tr>
+                                <td><label for="pwsCh">비밀번호 확인</label><span class="red" title="필수입력란">*</span></td>
+                                <td><input type="password" id="pwsCh" name="pwsCh"><span>비밀번호를 다시한번 입력하세요</span></td>
+                            </tr>
+                            <tr>
+                                <td><label for="addr">주소</label></td>
+                                <td><input type="text" id="addr" name="addr"><a href="#">주소검색</a></td>
+                            </tr>
+                            <tr>
+                                <td><label for="DetailAddr">상세주소</label></td>
+                                <td><input type="text" id="DetailAddr" name="DetailAddr"><span>단독주택의 경우 건물번호만
+                                        입력하시오.</span></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">이메일주소</label><span class="red" title="필수입력란">*</span></td>
+                                <td>
+                                    <input type="email" id="email" name="email1"><span>@</span>
+                                    <input type="email" id="email2" name="email2">
+                                    <select name="emailCh" id="emailCh" onchange="emailSelect()">
+                                        <option value="">직접입력</option>
+                                        <option value="gamil.com">gamil.com</option>
+                                        <option value="naver.com">naver.com</option>
+                                        <option value="hanmail.com">hanmail.com</option>
+                                        <option value="nate.com">nate.com</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="hp">자택전화번호</label></td>
+                                <td><input type="text" id="hp"><span>-</span><input type="text"><span>-</span><input
+                                        type="text"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="cell">휴대전화번호</label></td>
+                                <td><input type="text" id="cell"><span>-</span><input type="text"><span>-</span><input
+                                        type="text"><a href="#">본인확인</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="buttonBox">
+                        <a href="#" onclick="signUp4()">가입</a>
+                        <a href="login.html" class="Cancel">취소</a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <!--formtBox end-->
+    </section>
+    <!---content end-->
+    <?php include("footer.php") ?>
+</body>
+
+</html>

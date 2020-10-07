@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/signUp1.css">
+
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/gnb.js"></script>
+    <script src="js/siteLink.js"></script>
+    <script src="js/skipnav.js"></script>
+    <script src="js/search.js"></script>
+
+    <title>한국항로표지기술원</title>
+</head>
+
+<body>
+    <?php include("header.php") ?>
+    <!---header end-->
+    <section id="content">
+        <h3>회원가입</h3>
+        <div class="Procedure">
+            <ul>
+                <li class="on"><span>01.</span>회원선택</li>
+                <li><span>02.</span>약관동의</li>
+                <li><span>03.</span>회원정보 입력</li>
+                <li><span>04.</span>회원가입 완료</li>
+            </ul>
+        </div>
+        <!---Procedure end--->
+        <div class="selectBox">
+            <div class="person">
+                <h4>개인</h4>
+                <div class="inner">
+                    <div class="domestic ">
+                        <div class="imgBox">
+                            <img src="images/domestic.png" alt="내국인">
+                        </div>
+                        <div class="buttonBox">
+                            <button onclick="link()">*내국인</button>
+                        </div>
+                        <script>
+                            function link() {
+                                location.href = "signUp2.html"
+                            }
+                        </script>
+                    </div>
+                    <div class="foreigner">
+                        <div class="imgBox">
+                            <img src="images/foreigner.png" alt="외국인">
+                        </div>
+                        <div class="buttonBox">
+                            <button>외국인</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---person end--->
+            <div class="corporate ">
+                <h4>법인</h4>
+                <div class="inner">
+                    <div class="domestic_corp ">
+                        <div class="imgBox">
+                            <img src="images/domestic_corp.png" alt="법인사업자(내국인)">
+                        </div>
+                        <div class="buttonBox">
+                            <button>법인사업자(내국인)</button>
+                        </div>
+                    </div>
+                    <div class="foreign_corp">
+                        <div class="imgBox">
+                            <img src="images/foreign_corp.png" alt="법인사업자(외국인)">
+                        </div>
+                        <div class="buttonBox">
+                            <button>법인사업자(외국인)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---corporate end--->
+        </div>
+        <!--selectBox end--->
+    </section>
+    <!---content end-->
+    <?php include("footer.php") ?>
+</body>
+
+</html>
