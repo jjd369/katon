@@ -1,0 +1,26 @@
+#content{height:650px;}
+
+#content >h3 {
+    font-size: 1.8em;
+    padding: 2% 0 1%;
+    border-bottom: 1px solid #000;
+    width: 1200px;
+    margin: 0 auto;
+    font-weight: normal;
+    font-family: 'PUREUNJEONNAM-BOLD';
+}
+
+.Procedure{height:50px;padding-top:30px;padding-bottom:30px }
+.Procedure  ul{width:806px;margin:0 auto}
+.Procedure  ul li{width:200px;height:50px;line-height:50px;text-align:center;float:left;background-color: #eee;border-right:2px solid #f8f8f8;font-size:1em;}
+.Procedure  ul li span{font-size:1.2em;font-weight:800;margin-right:5px}
+.Procedure  ul li:last-child{border-right:0}
+.Procedure  ul li.on{background-color:#0d4b7e;color:#fff}
+
+.con{width:812px;margin:0 auto}
+.con h4{padding:10px 0 10px;border-bottom:1px solid #303030;text-indent:20px}
+.con p {text-align:center;font-size:2em;margin:100px 0}
+.buttonBox{text-align:center}
+.buttonBox a{display:inline-block;width:100px;height:30px;border:0;color:#fff;margin:8px;line-height:30px;font-size:0.8em;font-weight:300}
+.buttonBox a:first-child{background-color: #0d4b7e;}
+.buttonBox a:last-child{background-color: #48494b;}

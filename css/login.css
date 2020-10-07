@@ -1,0 +1,59 @@
+/*content*/
+#content{height:950px}
+.loginWrap h3{font-size:1.8em;padding:2% 0 1%;border-bottom:1px solid #000;width:1200px;margin:0 auto;font-weight: normal;font-family: 'PUREUNJEONNAM-BOLD';}
+.loginWrap .tab{height:50px;padding:50px 0 50px}
+.loginWrap .tab .buttonBox{width:808px;margin:0 auto}
+.loginWrap .tab button{width:200px;height:50px;float:left;cursor:pointer;outline: none;border:0}
+.loginWrap .tab-content{position: relative;}
+.loginWrap .tab-content > div{width:100%;position:absolute;text-align:center;display:none}
+.loginWrap .tab-content > div.active{z-index:10;display:block}
+.loginWrap .tab-content > div h4{font-size:1.8em;}
+
+/*tab on*/
+.loginWrap .tab button.active {background-color:#fff;border-right:2px solid #000;border-left:2px solid #000;border-top:2px solid #000}
+.loginWrap .tab button.none{border-bottom:2px solid #000}
+/*tab content on*/
+.tabcontent.active {
+    transition: all 1s ease;
+    display: block;
+  }
+
+.loginWrap .tab-content > div .imgBox{height:100px;padding-top:50px}
+.loginWrap .tab-content > div .buttonBox{height:80px;padding:50px 0 50px}
+.loginWrap .tab-content > div .buttonBox button{width:300px;padding: 1% 0 1% 0;
+  background: #3c4b77;
+  border: 1px solid #3c4b77;
+  color: #fff;
+  transition: all 0.2s;
+  font-size:1.5em;
+  cursor: pointer;
+  border-radius: 50px;}
+.loginWrap .tab-content > div .announcement{height:250px;background-color:#eff1ff;text-align:left}
+.loginWrap .tab-content > div .announcement .announcement_inner{width:1200px;margin:0 auto}
+.loginWrap .tab-content > div .announcement h5{font-size:1.2em;padding:0 0 10px}
+.loginWrap .tab-content > div .announcement .announcement_inner > div{float:left;width:440px;}
+.loginWrap .tab-content > div .announcement .announcement_inner > div:first-child{padding:30px 60px 30px 100px;}
+.loginWrap .tab-content > div .announcement .announcement_inner > div:last-child{padding:30px 100px 30px 60px;}
+.loginWrap .tab-content > div .announcement .announcement_inner > div.ann{width:50%;margin-left:25%}
+.loginWrap .tab-content > div .announcement .announcement_inner img{vertical-align: middle;margin-right: 1%;}
+
+.loginWrap .tab-content > div .announcement li{padding:5px 0 5px;}
+.loginWrap .tab-content > div .announcement li em{color:#f82f42;font-style: normal;}
+.loginWrap .tab-content > div .announcement li span a{color:mediumblue}
+.loginWrap .tab-content > div .announcement li span a:hover{text-decoration:underline}
+
+.loginWrap .tab-content > div .textBox{padding-top:50px}
+.loginWrap .tab-content > div form{width:350px;margin:0 auto}
+.loginWrap .tab-content > div input{width:350px;height:40px;margin-bottom:10px;text-indent:20px;outline:none;border:1px solid #ddd}
+.loginWrap .tab-content > div .signBox{height:80px;margin-top:-20px}
+.loginWrap .tab-content > div .signBox .inner{width:350px;margin:0 auto;}
+
+.loginWrap .tab-content > div .signBox > div >div:first-child{float:left;}
+.loginWrap .tab-content > div .signBox > div >div:last-child{float:right;}
+.loginWrap .tab-content > div .signBox > div >div a:hover{text-decoration:underline}
+.loginWrap .tab-content > div .signBox > div >div .more{margin-top:-2px}
+.loginWrap .tab-content > div .signBox > div >div.find a:after{content:'|';padding:0 5px; }
+.loginWrap .tab-content > div .signBox > div >div.find a:last-child:after{content:'';padding:0}
+.loginWrap .tab-content > div .signBox > div >div img{cursor:pointer}
+
+.loginWrap .tab-content > div .buttonBox button span{font-size:0.5em;}

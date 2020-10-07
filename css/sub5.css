@@ -1,0 +1,22 @@
+.main_body .main_body_con1{
+    width:80%;
+    padding:0 10%;
+}
+.main_body .main_body_con1 h3{
+    margin:50px 0 20px 0;
+    padding:1% 0 1%;
+    border-bottom:1px solid #000;
+}
+.main_body .main_body_con1 .chief{
+    width:100%;
+    margin-bottom:3%;
+}
+.main_body .main_body_con1 p{
+    margin:20px 0 20px 0;
+    line-height:30px;
+    color:#606060;
+}
+.main_body .main_body_con1 .sign{
+    float:right;
+    margin:20px 0 20px 0;
+}

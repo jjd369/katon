@@ -1,0 +1,35 @@
+#content{height:550px;}
+
+#content >h3 {font-size: 1.8em;
+    padding: 2% 0 1%;
+    border-bottom: 1px solid #000;
+    width: 1200px;
+    margin: 0 auto;
+    font-weight: normal;
+    font-family: 'PUREUNJEONNAM-BOLD';
+}
+
+.Procedure{height:50px;padding-top:30px;padding-bottom:30px }
+.Procedure  ul{width:806px;margin:0 auto}
+.Procedure  ul li{width:200px;height:50px;line-height:50px;text-align:center;float:left;background-color: #eee;border-right:2px solid #f8f8f8;font-size:1em;}
+.Procedure  ul li span{font-size:1.2em;font-weight:800;margin-right:5px}
+.Procedure  ul li:last-child{border-right:0}
+.Procedure  ul li.on{background-color:#0d4b7e;color:#fff}
+
+.selectBox{width:812px;margin:0 auto}
+.person,.corporate{width:406px;float:left;}
+.person .inner,.corporate .inner{border:1px solid #ddd;margin-top:40px;width:406px;height:200px;float:left}
+.person h4,.corporate h4{font-size:1.1em;width:400px;float:left;padding:10px 0 10px;border-bottom:1px solid #000;text-indent:20px}
+.person > div >div,.corporate > div > div{width:200px;float:left;}
+.selectBox div.imgBox{padding:20px 0 20px;text-align:center;}
+.selectBox div.buttonBox {text-align:center}
+.selectBox div.buttonBox button{
+    width:150px;
+    padding: 2% 0 2% 0;
+    background: #48494b;
+    border: 1px solid #48494b;
+    color: #fff;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.person .domestic,.corporate .domestic_corp{border-right:1px solid #ddd}
